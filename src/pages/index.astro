@@ -1,0 +1,42 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro'
+---
+
+<Layout title="Travel with Astro">
+	<div class="title">
+		<Header/>
+		<div class="text">
+			<h1>TRAVEL TIME</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque non nulla neque modi maxime repellat ad laboriosam alias excepturi, temporibus libero et vero, voluptatum nisi quibusdam reprehenderit enim! Harum.</p>
+		</div>
+	</div>
+</Layout>
+
+<style>
+	.title{
+		background-image: url('../assets/img/travel.jpg');
+		background-size: cover;
+		background-position: bottom;
+		height: 700px;
+		margin: -8px;
+		border: 1px solid;
+	}
+
+	.text{
+		color: #fff;	
+		margin-left: 100px;
+		width: 800px;
+		margin-top: 200px;
+	}
+
+	.text h1{
+		font-size: 120px;
+		margin: 0;
+	}
+
+	.text p{
+		width: 450px;
+		margin: 0;
+	}
+</style>
